@@ -1,0 +1,44 @@
+/*
+Theme Name: Dustro
+Text Domain: dustro
+Version: 1.0.6
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Dustro - Construction Company WordPress Theme
+Tags: blog, one-column, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, translation-ready, block-styles, wide-blocks, accessibility-ready
+Tested up to: 5.8
+Author: rayoflightthemes.com
+Author URI: rayoflightthemes.com
+Theme URI: https://themeforest.net/user/rayoflightt
+License: https://themeforest.net/
+License URI: https://themeforest.net/
+
+**/
+
+select{
+  outline: none;
+  appearance: none;
+  background: url("assets/images/chevron-down.png") right center no-repeat;
+}
+.footer.footer1 select{
+  outline: none;
+  appearance: none;
+  background: url("assets/images/chevron-down-white.png") right center no-repeat;
+}
+select:focus {
+  box-shadow: 0;
+}
+.wp-caption p {
+  margin: 10px!important;
+}
+.wp-caption p:empty:before {
+ content:""!important;
+}
+.wp-caption p.wp-caption-text {
+  font-size: 13px!important;
+}
+@media all and (max-width: 992px) {
+  .white-nav-wrapper.sticky-top { 
+    position: relative;
+  }
+}
